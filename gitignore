@@ -1,0 +1,39 @@
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.out
+*.exe
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Build folders
+build/
+cmake-build-debug/
+
+# IDE folders
+.idea/
+.vscode/
+
+# Compiled files
+*.so
+*.dll
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+*.cmake
+
+# Other generated files
+Makefile
+
+# OS generated files
+.DS_Store
+Thumbs.db
