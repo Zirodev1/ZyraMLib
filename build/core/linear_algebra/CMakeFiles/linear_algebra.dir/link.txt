@@ -1,2 +1,0 @@
-C:\mingw64\bin\llvm-ar.exe qc liblinear_algebra.a CMakeFiles/linear_algebra.dir/linear_algebra.cpp.obj
-C:\mingw64\bin\llvm-ranlib.exe liblinear_algebra.a

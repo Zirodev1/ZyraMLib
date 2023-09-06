@@ -1,3 +1,0 @@
-C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\autograd_test.dir/objects.a
-C:\mingw64\bin\llvm-ar.exe qc CMakeFiles\autograd_test.dir/objects.a @CMakeFiles\autograd_test.dir\objects1.rsp
-C:\mingw64\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\autograd_test.dir/objects.a -Wl,--no-whole-archive -o autograd_test.exe -Wl,--out-implib,libautograd_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\autograd_test.dir\linkLibs.rsp
