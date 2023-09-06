@@ -1,0 +1,172 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-core-Debug-e3757ce4a321da3133c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "core/linear_algebra",
+					"jsonFile" : "directory-core.linear_algebra-Debug-a6e4ac1e9826994519bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/linear_algebra",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "core/statistics",
+					"jsonFile" : "directory-core.statistics-Debug-486a377cd08f80767f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/statistics",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "core/autograd",
+					"jsonFile" : "directory-core.autograd-Debug-02407e8639088aeb4f45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "core/autograd",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "ZyroMLib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "autograd::@a9b836ce66754c120f6d",
+					"jsonFile" : "target-autograd-Debug-1d45043840778eece438.json",
+					"name" : "autograd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "autograd_test::@a9b836ce66754c120f6d",
+					"jsonFile" : "target-autograd_test-Debug-c9aafe56b875cf7021a6.json",
+					"name" : "autograd_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "core::@57760688d1f824db5d9c",
+					"jsonFile" : "target-core-Debug-d7fd4bd52e4a39dd0b02.json",
+					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "linear_algebra::@2e76b4e5424a6fc9c8ee",
+					"jsonFile" : "target-linear_algebra-Debug-f87bee1139b420201db1.json",
+					"name" : "linear_algebra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "statistics::@c81a8af7a102ac399acf",
+					"jsonFile" : "target-statistics-Debug-5de5e65f300c6500ea1c.json",
+					"name" : "statistics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "statistics_test::@c81a8af7a102ac399acf",
+					"jsonFile" : "target-statistics_test-Debug-7035a4e60731ab6d2220.json",
+					"name" : "statistics_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ZiroDev/Desktop/ZyroMLib/build",
+		"source" : "C:/Users/ZiroDev/Desktop/ZyroMLib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
