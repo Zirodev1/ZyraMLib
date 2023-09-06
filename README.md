@@ -4,14 +4,8 @@
 
 ZyraMLib is an open-source machine learning library designed to compete with existing frameworks like TensorFlow and PyTorch. It provides a wide range of functionalities, from basic linear algebra operations to complex neural network architectures. ZyraMLib aims to be flexible, efficient, and easy to use, offering a one-stop solution for all your machine learning needs.
 
-##Features
 ## Features
 
-Core Functionality
-    Linear Algebra Operations
-    Statistics Functions
-    Automatic Differentiation (Autograd)
-    Tensor Operations
 ### Core Functionality
 - Linear Algebra Operations
 - Statistics Functions
